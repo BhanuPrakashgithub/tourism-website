@@ -1,0 +1,70 @@
+.hotel{
+    background: #f9f9f9;
+    padding: 50px;
+
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.main-text h1 span {
+    color: #ffa500;
+}
+.hotel .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.hotel .row{
+    margin-top : 30px;
+}
+.hotel form input{
+    padding: 10px;
+    color: black;
+    border:none;
+    outline: none;
+    font-size:15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+    margin:15px;
+
+}
+.hotel form textarea{
+    border: none;
+    border-radius : 10px;
+    resize:none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+    margin:15px;
+}
+.hotel .submit{
+    width: 160px;
+    font-size:16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.hotel .submit:hover{
+    width : 180px;
+}
+.hotel form select{
+    border:none;
+    margin: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+    padding: 10px;
+    color: black;
+    outline : none;
+
+}
+
+@media (max-width : 765px)
+{
+    .hotel{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+}
